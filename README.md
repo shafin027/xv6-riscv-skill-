@@ -4,6 +4,22 @@
 
 [![Install Skill](https://img.shields.io/badge/Install%20Skill-Click%20Here-purple?style=for-the-badge)](https://skills.sh/shafin027/xv6-riscv-skill)
 
+## 📊 GitHub Stats
+
+[![Stars](https://img.shields.io/github/stars/shafin027/xv6-riscv-skill?style=social)](https://github.com/shafin027/xv6-riscv-skill/stargazers)
+[![Forks](https://img.shields.io/github/forks/shafin027/xv6-riscv-skill?style=social)](https://github.com/shafin027/xv6-riscv-skill/network/members)
+[![Watchers](https://img.shields.io/github/watchers/shafin027/xv6-riscv-skill?style=social)](https://github.com/shafin027/xv6-riscv-skill/watchers)
+[![Issues](https://img.shields.io/github/issues/shafin027/xv6-riscv-skill)](https://github.com/shafin027/xv6-riscv-skill/issues)
+[![License](https://img.shields.io/github/license/shafin027/xv6-riscv-skill)](LICENSE)
+[![GitHub release](https://img.shields.io/github/release/shafin027/xv6-riscv-skill)](https://github.com/shafin027/xv6-riscv-skill/releases)
+
+### 🔥 Live Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shafin027&repo=xv6-riscv-skill&show_icons=true&theme=radical)
+![GitHub Stars](https://github-readme-stats.vercel.app/api?username=shafin027&repo=xv6-riscv-skill&show_icons=true&count_private=true&theme=radical#gh-light-mode-only)
+![GitHub Forks](https://img.shields.io/github/forks/shafin027/xv6-riscv-skill?label=Forks&style=for-the-badge&color=blueviolet)
+![GitHub Stars](https://img.shields.io/github/stars/shafin027/xv6-riscv-skill?label=Stars&style=for-the-badge&color=yellow)
+
 ## 📖 Description
 
 This skill transforms Claude Code into an **xv6-riscv expert** — specifically designed to help students and developers solve, implement, debug, and explain **xv6-riscv** and **SNU xv6-riscv-snu** operating system assignments.
