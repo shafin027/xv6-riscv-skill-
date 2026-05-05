@@ -1,30 +1,46 @@
-# xv6-riscv-expert
+<div align="center">
 
-<p align="center">
-  <a href="https://skills.sh/shafin027/xv6-riscv-skill-">
-    <img src="https://img.shields.io/badge/Install%20Skill-Click%20Here-purple?style=for-the-badge" alt="Install Skill">
+# 🧠 xv6 RISC-V Expert
+
+### A Claude Code Skill for debugging, building, and mastering xv6 on 64-bit RISC-V
+
+<p>
+  <img src="https://img.shields.io/badge/xv6-RISC--V-2ea44f?style=for-the-badge&logo=riscv&logoColor=white" alt="xv6 RISC-V">
+  <img src="https://img.shields.io/badge/Claude_Code-Skill-7c3aed?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code Skill">
+  <img src="https://img.shields.io/badge/Kernel-Debugging-f97316?style=for-the-badge&logo=linux&logoColor=white" alt="Kernel Debugging">
+  <img src="https://img.shields.io/badge/License-MIT-0ea5e9?style=for-the-badge" alt="MIT License">
+</p>
+
+<p>
+  <b>Syscalls</b> · <b>Schedulers</b> · <b>Page Tables</b> · <b>Traps</b> · <b>Locks</b> · <b>File System</b>
+</p>
+
+<p>
+  <a href="https://skills.sh/shafin027/xv6-riscv-skill">
+    <img src="https://img.shields.io/badge/Install%20Skill-Click%20Here-8b5cf6?style=for-the-badge&logo=bolt&logoColor=white" alt="Install Skill">
+  </a>
+  <a href="https://github.com/shafin027/xv6-riscv-skill">
+    <img src="https://img.shields.io/badge/View%20on-GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="View on GitHub">
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/shafin027/xv6-riscv-skill-/stargazers">
-    <img src="https://img.shields.io/github/stars/shafin027/xv6-riscv-skill-?style=social" alt="GitHub stars">
+<p>
+  <a href="https://github.com/shafin027/xv6-riscv-skill/stargazers">
+    <img src="https://img.shields.io/github/stars/shafin027/xv6-riscv-skill?style=flat-square&label=Stars" alt="GitHub stars">
   </a>
-  <a href="https://github.com/shafin027/xv6-riscv-skill-/network/members">
-    <img src="https://img.shields.io/github/forks/shafin027/xv6-riscv-skill-?style=social" alt="GitHub forks">
+  <a href="https://github.com/shafin027/xv6-riscv-skill/network/members">
+    <img src="https://img.shields.io/github/forks/shafin027/xv6-riscv-skill?style=flat-square&label=Forks" alt="GitHub forks">
   </a>
-  <a href="https://github.com/shafin027/xv6-riscv-skill-/watchers">
-    <img src="https://img.shields.io/github/watchers/shafin027/xv6-riscv-skill-?style=social" alt="Watchers">
+  <a href="https://github.com/shafin027/xv6-riscv-skill/issues">
+    <img src="https://img.shields.io/github/issues/shafin027/xv6-riscv-skill?style=flat-square&label=Issues" alt="GitHub issues">
   </a>
-  <a href="https://github.com/shafin027/xv6-riscv-skill-/issues">
-    <img src="https://img.shields.io/github/issues/shafin027/xv6-riscv-skill-?style=social" alt="Issues">
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/shafin027/xv6-riscv-skill-?style=social" alt="License">
+  <a href="https://github.com/shafin027/xv6-riscv-skill/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/shafin027/xv6-riscv-skill?style=flat-square&label=License" alt="License">
   </a>
 </p>
 
----
+</div>
+
 
 ## 📖 What Is This?
 
