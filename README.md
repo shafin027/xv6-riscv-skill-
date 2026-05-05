@@ -26,17 +26,6 @@
 
 ---
 
-## Star History
-
-<a href="https://www.star-history.com/?repos=shafin027%2Fxv6-riscv-skill&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=shafin027/xv6-riscv-skill&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=shafin027/xv6-riscv-skill&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=shafin027/xv6-riscv-skill&type=date&legend=top-left" />
- </picture>
-</a>
-
-
 ## 📖 What Is This?
 
 `xv6-riscv-expert` is a **Claude Code Skill** designed for students and developers working with MIT-style `xv6-riscv` and SNU's `xv6-riscv-snu` operating system assignments.
@@ -261,6 +250,17 @@ Found a bug or want to improve the skill? Contributions welcome!
 5. Open a Pull Request
 
 ---
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=shafin027%2Fxv6-riscv-skill&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=shafin027/xv6-riscv-skill&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=shafin027/xv6-riscv-skill&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=shafin027/xv6-riscv-skill&type=date&legend=top-left" />
+ </picture>
+</a>
+
 
 ## 📄 License
 
