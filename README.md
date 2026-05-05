@@ -26,18 +26,15 @@
 
 ---
 
-## 📊 Star History
+## Star History
 
-<p align="center">
-  <a href="https://star-history.com/#shafin027/xv6-riscv-skill-&type=Date">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg/shafin027/xv6-riscv-skill-?type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg/shafin027/xv6-riscv-skill-?type=Date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg/shafin027/xv6-riscv-skill-?type=Date" />
-    </picture>
-  </a>
-</p>
-
+<a href="https://www.star-history.com/?repos=shafin027%2Fxv6-riscv-skill&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=shafin027/xv6-riscv-skill&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=shafin027/xv6-riscv-skill&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=shafin027/xv6-riscv-skill&type=date&legend=top-left" />
+ </picture>
+</a>
 ---
 
 ## 📖 What Is This?
