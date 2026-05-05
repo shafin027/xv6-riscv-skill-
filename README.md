@@ -35,7 +35,7 @@
    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=shafin027/xv6-riscv-skill&type=date&legend=top-left" />
  </picture>
 </a>
----
+
 
 ## 📖 What Is This?
 
