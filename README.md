@@ -1,382 +1,292 @@
-# xv6-riscv-expert
+# 🔥 xv6-riscv-expert
 
-> Claude Code Skill for solving, implementing, debugging, and explaining xv6-riscv operating system assignments on 64-bit RISC-V.
+> **Professional Claude Code Skill** — Expert assistant for MIT-style xv6-riscv & SNU OS assignments on 64-bit RISC-V
 
 <p align="center">
-  <a href="https://skills.sh/shafin027/xv6-riscv-skill">
+  <a href="https://skills.sh/shafin027/xv6-riscv-skill-">
     <img src="https://img.shields.io/badge/Install%20Skill-Click%20Here-purple?style=for-the-badge" alt="Install Skill">
   </a>
-  <a href="https://github.com/shafin027/xv6-riscv-skill/stargazers">
-    <img src="https://img.shields.io/github/stars/shafin027/xv6-riscv-skill?style=for-the-badge&color=yellow" alt="GitHub stars">
-  </a>
-  <a href="https://github.com/shafin027/xv6-riscv-skill/network/members">
-    <img src="https://img.shields.io/github/forks/shafin027/xv6-riscv-skill?style=for-the-badge&color=blueviolet" alt="GitHub forks">
-  </a>
-  <a href="https://github.com/shafin027/xv6-riscv-skill/issues">
-    <img src="https://img.shields.io/github/issues/shafin027/xv6-riscv-skill?style=for-the-badge&color=red" alt="GitHub issues">
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/shafin027/xv6-riscv-skill?style=for-the-badge&color=green" alt="License">
-  </a>
 </p>
-
----
-
-## Overview
-
-`xv6-riscv-expert` is a Claude Code skill designed for students and developers working with MIT-style `xv6-riscv` and SNU's `xv6-riscv-snu` operating system assignments.
-
-It helps with:
-
-- implementing system calls
-- modifying the scheduler
-- debugging traps and page faults
-- understanding RISC-V registers
-- working with page tables and virtual memory
-- modifying process management code
-- handling locks and concurrency
-- explaining xv6 concepts in exam-friendly language
-- writing clean xv6-style C code
-
-This is not a generic OS prompt. It is built specifically around the xv6 RISC-V codebase and the kinds of assignments students usually face.
-
----
-
-## Repository Stats
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/shafin027/xv6-riscv-skill?label=Stars&style=for-the-badge&color=yellow" alt="Stars">
-  <img src="https://img.shields.io/github/forks/shafin027/xv6-riscv-skill?label=Forks&style=for-the-badge&color=blueviolet" alt="Forks">
-  <img src="https://img.shields.io/github/watchers/shafin027/xv6-riscv-skill?label=Watchers&style=for-the-badge&color=informational" alt="Watchers">
-  <img src="https://img.shields.io/github/issues/shafin027/xv6-riscv-skill?label=Issues&style=for-the-badge&color=red" alt="Issues">
+  <a href="https://github.com/shafin027/xv6-riscv-skill-/stargazers">
+    <img src="https://img.shields.io/github/stars/shafin027/xv6-riscv-skill-?style=social" alt="GitHub stars">
+  </a>
+  <a href="https://github.com/shafin027/xv6-riscv-skill-/network/members">
+    <img src="https://img.shields.io/github/forks/shafin027/xv6-riscv-skill-?style=social" alt="GitHub forks">
+  </a>
+  <a href="https://github.com/shafin027/xv6-riscv-skill-/watchers">
+    <img src="https://img.shields.io/github/watchers/shafin027/xv6-riscv-skill-?style=social" alt="Watchers">
+  </a>
+  <a href="https://github.com/shafin027/xv6-riscv-skill-/issues">
+    <img src="https://img.shields.io/github/issues/shafin027/xv6-riscv-skill-?style=social" alt="Issues">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/shafin027/xv6-riscv-skill-?style=social" alt="License">
+  </a>
 </p>
-
-<!--
-Optional repository card.
-If this does not render, keep it commented out. GitHub Readme Stats can fail because of Vercel rate limits, GitHub API limits, or cache delays.
-
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=shafin027&repo=xv6-riscv-skill&theme=radical&show_owner=true&cache_seconds=86400)](https://github.com/shafin027/xv6-riscv-skill)
--->
 
 ---
 
-## Quick Install
+## 📖 What Is This?
 
-### Option 1: Install with Skills CLI
+This skill transforms **Claude Code** into an **xv6-riscv operating system expert** — specifically designed to help students and developers solve, implement, debug, and explain **xv6-riscv** and **SNU xv6-riscv-snu** assignments with professional-grade accuracy.
+
+### ✨ Perfect For:
+
+| Use Case | Description |
+|----------|-------------|
+| 🎓 **Coursework** | CSE321 / OS assignments (xv6-riscv) |
+| 🔧 **Kernel Dev** | System calls, scheduler, virtual memory, traps |
+| 🐛 **Debugging** | Page faults, locks, race conditions |
+| 📚 **Learning** | OS concepts, RISC-V architecture |
+
+---
+
+## 🚀 Quick Install
+
+### Option 1: One-Line Install (Recommended)
 
 ```bash
-npx skills add shafin027/xv6-riscv-skill
+npx skills add shafin027/xv6-riscv-skill-
 ```
 
-### Option 2: Manual install
+### Option 2: Manual Install
 
 ```bash
-git clone https://github.com/shafin027/xv6-riscv-skill.git ~/.claude/skills/xv6-riscv-expert
+git clone https://github.com/shafin027/xv6-riscv-skill-.git ~/.claude/skills/xv6-riscv-expert
 ```
 
-### Option 3: Install locally inside a project
+### Option 3: Local Project Install
 
 ```bash
 cd /path/to/your/project
-npx skills add shafin027/xv6-riscv-skill --local
+npx skills add shafin027/xv6-riscv-skill- --local
 ```
 
 ---
 
-## Skill Metadata
+## 🎯 Usage
 
-The skill uses this Claude Code skill structure:
+### Slash Command
 
-```yaml
----
-name: xv6-riscv-expert
-description: Expert knowledge on MIT-style xv6 operating system assignments for 64-bit RISC-V. Helps implement, debug, and explain syscalls, schedulers, traps, page tables, process management, file systems, and kernel code.
-trigger: xv6
----
-```
-
-Expected folder structure:
-
-```text
-xv6-riscv-expert/
-└── SKILL.md
-```
-
----
-
-## Usage
-
-### Slash command
-
-```text
+```bash
 /xv6-riscv-expert
 ```
 
-### Automatic triggering
+### Automatic Triggering
 
-Claude Code should use the skill when you ask questions like:
+Just mention xv6-related keywords in your prompt:
 
-```text
-I need to add a new syscall to xv6-riscv.
+```
+I need to add a new system call to xv6-riscv
 ```
 
-```text
-Debug this xv6 page fault: scause=15, stval=0x0.
+```
+How do I implement a lottery scheduler in xv6?
 ```
 
-```text
-Help me implement a lottery scheduler in xv6-riscv.
 ```
-
-```text
-Explain usertrap and kerneltrap in xv6.
+Debug this page fault in my xv6 kernel (scause=15)
 ```
 
 ---
 
-## Supported Assignment Types
+## 🛠️ Supported Assignment Types
 
-| Area | Examples |
-|---|---|
-| System calls | `trace`, `settickets`, `getpinfo`, `sysinfo`, custom syscall implementation |
-| Scheduler | lottery scheduler, priority scheduler, process accounting, `yield`, `sched`, `scheduler` |
-| Virtual memory | Sv39 page tables, `walk`, `mappages`, `uvmalloc`, `copyin`, `copyout`, `vmprint` |
-| Traps | `usertrap`, `kerneltrap`, `scause`, `sepc`, `stval`, timer interrupts, page faults |
-| Process management | `fork`, `exit`, `wait`, `sleep`, `wakeup`, process states |
-| Locks | spinlocks, sleeplocks, race conditions, deadlocks, interrupt disabling |
-| File system | inodes, buffer cache, logging, file descriptors, large files |
-| User programs | adding programs to `UPROGS`, editing `user.h`, generating syscall stubs |
-| Debugging | QEMU, GDB, kernel panics, register inspection, backtraces |
+| Type | Examples | Status |
+|------|----------|--------|
+| **System Calls** | `settickets`, `getpid`, tracing, custom syscalls | ✅ |
+| **Scheduler** | Lottery scheduler, priority, round-robin | ✅ |
+| **Virtual Memory** | Page tables, PTEs, `vmprint`, COW, USYSCALL | ✅ |
+| **Traps & Interrupts** | `usertrap`, page faults, timer interrupts | ✅ |
+| **Process Management** | `fork`, `exit`, `wait`, process states | ✅ |
+| **Locks & Concurrency** | Spinlocks, sleeplocks, deadlocks | ✅ |
+| **File System** | Inodes, logging, buffer cache, large files | ✅ |
+| **Boot & Init** | Kernel prints, init process, QEMU setup | ✅ |
 
 ---
 
-## xv6 RISC-V File Map
+## 📚 Skill Knowledge Base
+
+The skill includes comprehensive xv6-riscv expertise:
+
+### Core Files Map
 
 | File | Purpose |
-|---|---|
-| `kernel/proc.c` | process lifecycle, scheduler, `fork`, `exit`, `wait`, `sleep`, `wakeup` |
-| `kernel/proc.h` | `struct proc`, process states, process-related fields |
-| `kernel/sysproc.c` | process-related syscall implementations |
-| `kernel/syscall.c` | syscall dispatcher and syscall table |
-| `kernel/syscall.h` | syscall numbers |
-| `kernel/trap.c` | trap handling, interrupts, exceptions, system call entry path |
-| `kernel/vm.c` | page tables, virtual memory, mapping, copying user memory |
-| `kernel/riscv.h` | RISC-V registers, CSR helpers, PTE flags |
-| `kernel/defs.h` | kernel function declarations |
-| `kernel/spinlock.c` | spinlock implementation |
-| `kernel/sleeplock.c` | sleeplock implementation |
-| `kernel/file.c` | file table and file operations |
-| `kernel/fs.c` | inode and file system logic |
-| `user/user.h` | user-space function and syscall declarations |
-| `user/usys.pl` | syscall stub generator |
-| `Makefile` | build system and user program list |
+|------|---------|
+| `kernel/proc.h` | `struct proc`, process states, fields |
+| `kernel/proc.c` | Process lifecycle, scheduler, `fork`, `exit` |
+| `kernel/syscall.c` | Syscall dispatcher and table |
+| `kernel/syscall.h` | Syscall numbers |
+| `kernel/trap.c` | Trap handling, interrupts, exceptions |
+| `kernel/vm.c` | Page tables, virtual memory, mapping |
+| `kernel/riscv.h` | RISC-V registers, PTE flags |
+| `user/user.h` | User-space function declarations |
+
+### 🎯 Answer Templates
+
+The skill provides structured responses:
+
+**Implementation Answer:**
+1. Files to change
+2. Patch / code
+3. Why this works
+4. How to test
+5. Common mistakes
+
+**Debugging Answer:**
+1. Likely cause
+2. What to inspect
+3. Exact command(s)
+4. Fix
+5. Validation
 
 ---
 
-## Common xv6 System Call Workflow
+## 🎯 Example Workflows
 
-When adding a syscall, the skill should check these files:
+### Example 1: Adding a New System Call
 
-1. Add syscall number in `kernel/syscall.h`
-2. Add kernel function declaration in `kernel/defs.h` if needed
-3. Implement syscall handler in `kernel/sysproc.c` or another suitable `sys*.c` file
-4. Register handler in `kernel/syscall.c`
-5. Add user declaration in `user/user.h`
-6. Add syscall stub in `user/usys.pl`
-7. Add a test program in `user/`
-8. Add the test program to `UPROGS` in `Makefile`
+**Prompt:**
+```
+I need to add a system call called settickets(int n) to xv6-riscv
+```
 
-Example test command:
+**Skill Response:**
+- ✅ Lists all files to change
+- ✅ Provides exact code patches
+- ✅ Explains why each change works
+- ✅ Gives test commands (`make qemu`)
+- ✅ Shows common mistakes to avoid
+
+### Example 2: Lottery Scheduler Assignment
+
+**Prompt:**
+```
+Implement a lottery scheduler for xv6-riscv where each process 
+has tickets and the scheduler picks a random winner
+```
+
+**Skill Response:**
+- ✅ Step-by-step implementation plan
+- ✅ Complete code for `proc.h`, `proc.c`, `sysproc.c`
+- ✅ Random number generator implementation
+- ✅ Test program (`test_scheduler.c`)
+- ✅ Patch file creation instructions
+
+### Example 3: Debugging a Page Fault
+
+**Prompt:**
+```
+My xv6 kernel panics with scause=15 (store page fault). 
+The fault happens in sys_write. Here's my code...
+```
+
+**Skill Response:**
+- ✅ Identifies likely cause (PTE permissions, user pointer)
+- ✅ Shows what to inspect (`copyout`, `walk()`, PTE flags)
+- ✅ Provides exact fix
+- ✅ Gives validation steps
+
+---
+
+## 🔧 xv6-riscv Setup
+
+Before using this skill, ensure you have xv6-riscv set up:
+
+### 1. Install Prerequisites
 
 ```bash
-make clean
-make qemu
-```
-
----
-
-## Debugging Focus
-
-For xv6 RISC-V bugs, the skill should prioritize:
-
-- `scause`: why the trap happened
-- `sepc`: where the trap happened
-- `stval`: bad address or faulting value
-- `a0` to `a7`: syscall arguments and return values
-- `s0` to `s11`: callee-saved registers
-- PTE flags: `PTE_V`, `PTE_R`, `PTE_W`, `PTE_X`, `PTE_U`
-- process state transitions
-- lock acquire/release order
-- user pointer validation through `copyin`, `copyout`, and `copyinstr`
-
-Useful commands:
-
-```bash
-make qemu
-make qemu-gdb
-riscv64-linux-gnu-gdb kernel/kernel
-```
-
-Inside GDB:
-
-```gdb
-b syscall
-b usertrap
-b panic
-info registers
-x/10i $sepc
-bt
-continue
-```
-
----
-
-## Example Prompts
-
-### Add a syscall
-
-```text
-Use xv6-riscv-expert. Add a syscall called getreadcount() that returns how many times read() has been called.
-```
-
-### Debug a trap
-
-```text
-Use xv6-riscv-expert. My kernel panics with scause=13 and stval=0x0 after fork(). Find the likely bug.
-```
-
-### Explain page tables
-
-```text
-Use xv6-riscv-expert. Explain how walk(), mappages(), and copyout() work together in xv6-riscv.
-```
-
-### Implement scheduler
-
-```text
-Use xv6-riscv-expert. Implement a lottery scheduler with tickets and a test program.
-```
-
----
-
-## Expected Answer Style
-
-The skill should answer xv6 questions using this structure:
-
-1. Identify the exact xv6 subsystem involved
-2. List every file that must be changed
-3. Explain the logic before giving code
-4. Provide minimal xv6-style C patches
-5. Include test commands
-6. Mention common mistakes
-7. Explain the result in exam-friendly language when asked
-
-The skill should avoid dumping random code without explaining where it goes.
-
----
-
-## xv6 Setup
-
-### Ubuntu/Debian
-
-```bash
+# Ubuntu/Debian
 sudo apt update
 sudo apt install git build-essential gdb-multiarch qemu-system-misc \
-  gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu
+                 gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu
 ```
 
-### Clone MIT xv6-riscv
+### 2. Clone xv6-riscv
 
 ```bash
 git clone https://github.com/mit-pdos/xv6-riscv.git
 cd xv6-riscv
-make qemu
 ```
 
-### Clone SNU xv6-riscv-snu
-
-```bash
-git clone https://github.com/snu-csl/xv6-riscv-snu.git
-cd xv6-riscv-snu
-make qemu
-```
-
----
-
-## Recommended Workflow for Assignments
-
-```bash
-git status
-git checkout -b assignment-solution
-make clean
-make qemu
-```
-
-After implementation:
+### 3. Build and Run
 
 ```bash
 make clean
 make qemu
 ```
 
-Generate a patch:
+### 4. Debug with GDB
 
+Terminal 1:
 ```bash
-git diff > solution.patch
+make qemu-gdb
 ```
 
-Or for staged changes:
-
+Terminal 2:
 ```bash
-git add .
-git diff --staged > solution.patch
+riscv64-linux-gnu-gdb kernel/kernel
 ```
 
 ---
 
-## Troubleshooting README Badges
+## 📋 Assignment Checklist
 
-If a badge does not render:
+When working on xv6 assignments, the skill will help you:
 
-1. Open the badge URL directly in the browser
-2. Check whether the repository name is correct
-3. Wait a few minutes for GitHub cache to refresh
-4. Avoid depending on third-party dynamic repo cards for critical README content
-
-This README intentionally uses stable `img.shields.io` badges for repository stats. The GitHub Readme Stats repository card is left commented out because it can fail because of API limits, Vercel cache problems, or temporary service downtime.
+- [x] Identify assignment type
+- [x] List all files to modify
+- [x] Provide minimal correct patches
+- [x] Explain why the solution works
+- [x] Include test commands
+- [x] Warn about common mistakes
+- [x] Help create patch files (`git diff --staged > ID.patch`)
 
 ---
 
-## Resources
+## 🤝 Contributing
 
-- [MIT xv6-riscv](https://github.com/mit-pdos/xv6-riscv)
+Found a bug or want to improve the skill? Contributions welcome!
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/amazing-improvement`)
+3. Commit your changes (`git commit -m 'Add some amazing improvement'`)
+4. Push to the branch (`git push origin feature/amazing-improvement`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+**MIT License** — feel free to use, modify, and distribute.
+
+---
+
+## 🔗 Resources
+
+- [xv6-riscv Official Repository](https://github.com/mit-pdos/xv6-riscv)
+- [xv6 Book (MIT)](https://pdos.csail.mit.edu/6.828/2020/xv6-book.html)
+- [RISC-V Documentation](https://riscv.org/technical/specifications/)
 - [SNU xv6-riscv-snu](https://github.com/snu-csl/xv6-riscv-snu)
-- [xv6 Book](https://pdos.csail.mit.edu/6.828/2020/xv6-book.html)
-- [RISC-V Specifications](https://riscv.org/technical/specifications/)
-- [Claude Code Skills Documentation](https://docs.anthropic.com/en/docs/claude-code/skills)
 
 ---
 
-## Contributing
+## 💬 Support
 
-Contributions are welcome.
+Having issues?
 
-```bash
-git clone https://github.com/shafin027/xv6-riscv-skill.git
-cd xv6-riscv-skill
-git checkout -b improve-skill
-```
-
-Then commit and open a pull request.
-
----
-
-## License
-
-MIT License. You can use, modify, and distribute this skill freely.
+1. Check the [Troubleshooting section](https://skills.sh/shafin027/xv6-riscv-skill-/docs/troubleshooting)
+2. Open an issue on [GitHub](https://github.com/shafin027/xv6-riscv-skill-/issues)
+3. Ask in the [Claude Code Discord](https://discord.gg/claude-code)
 
 ---
 
 <p align="center">
-  Made for OS students, xv6 hackers, and RISC-V learners.
+  <b>Made with ❤️ for OS students, xv6 hackers, and RISC-V enthusiasts</b>
+</p>
+
+<p align="center">
+  <sub>Part of the <a href="https://skills.sh/">Claude Code Skills</a> ecosystem</sub>
 </p>
